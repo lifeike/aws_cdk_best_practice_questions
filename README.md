@@ -58,6 +58,6 @@ In this demo repo, I have only 2 input resources for demo purpose, one cdk repo 
 
 I've been stuck on this technical issue for three months. Any help would be strongly appreciated. You can provide help by:
 
-* 1. schedule a meeting with me at any time, I'm available at any time as long as I can solve these technical challenges. Email: `lifeike67@gmail.com` 
-* 2. direct code PR in this repo
-* 3. provide some learning resource links or git demo repos which could solve the questions in the readme file.  
+* schedule a meeting with me at any time, I'm available at any time as long as I can solve these technical challenges. Email: `lifeike67@gmail.com` 
+* direct code PR in this repo
+* provide some learning resource links or git demo repos which could solve the questions in the readme file.  
