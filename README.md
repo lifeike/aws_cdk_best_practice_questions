@@ -6,7 +6,7 @@ The goal of this cdk app is to manage cdk resources and deploy micro-services pr
 
 ## Context
 
-### I have learned these resources below before asking questions
+### I have learned these resources before asking questions
 
 * <a href="https://github.com/aws-samples/aws-cdk-examples" target="_blank" rel="noopener noreferrer">aws cdk example repo</a>
 * <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html" target="_blank" rel="noopener noreferrer">aws cdk official user guide</a>
@@ -17,13 +17,20 @@ The goal of this cdk app is to manage cdk resources and deploy micro-services pr
 
 ```
 
-> tree .                                                                                                   
-.                                                                                                          
+lib/                                                                                                       
 ├── pipeline-cdk.ts                                                                                        
 ├── stacks                                                                                                 
 │   └── myapp-stack.ts                                                                                     
 └── stages                                                                                                 
     └── fullstack-stage.ts                                                                                 
-2 directories, 3 files                                                                                     
 
 ```
+
+
+## Questions
+
+### 1.how to sperate the pipelines
+
+
+as you can see, in my [pipeline-cdk](./lib/pipeline-cdk.ts), I have defined 
+
