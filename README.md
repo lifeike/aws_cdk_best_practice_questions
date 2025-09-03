@@ -15,6 +15,8 @@ The goal of this cdk app is to manage cdk resources and deploy micro-services pr
 
 ### Core files in my repo
 
+I have already removed uncessary files from this repo to demo the core feature I want to implement in this repo. Tried my best to simplify the code structure for faster reveiw.
+
 ```
 
 lib/                                                                                                       
@@ -46,10 +48,16 @@ Suppose, we have already separate the pipelines. In theory, the cdk infrastructu
 
 ### 3.how to create multiple stages for these two pipelines
 
-Suppose, we have already properly pass the variables and instances created from infrastructure to appliction pipeline to 
+Suppose, we have already properly pass the variables and instances created from infrastructure to appliction pipeline to implement fullstack web app on ecs successfully. There is one more challenge that how we pass the variables from infrastructure staging stage to application staging stage. Also, properly pass the variables created in infrastructure production stage to application pipeline production stage so that each stage has clear isolation.
+
+### 4.how to implement micro-services structure in this cdk app
+
+In this demo repo, I have only 2 input resources for demo purpose, one cdk repo and one fullstack application repo. In the future, I will need to add some other services. for example, another backend service for analytics/logging/authentication service specifically. In this case, how do we add more services into this cdk infrastructure. By reusing the ecs instances from infrastructure ?    
 
 ## Feedback / Contact Information
 
-### 1. direct code 
-### 2. learning resource link 
-### 3. schedule a meeting 
+I've been stuck on this technical issue for three months. Any help would be strongly appreciated. You can provide help by:
+
+* 1. schedule a meeting with me at any time, I'm available at any time as long as I can solve these technical challenges. Email: `lifeike67@gmail.com` 
+* 2. direct code PR in this repo
+* 3. provide some learning resource links or git demo repos which could solve the questions in the readme file.  
