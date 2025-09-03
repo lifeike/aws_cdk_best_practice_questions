@@ -8,6 +8,6 @@ The goal of this cdk app is to manage cdk resources and deploy micro-services pr
 
 ### I have learned resources below
 
-* [aws cdk example repo](https://github.com/aws-samples/aws-cdk-examples)
-* [aws cdk official user guide](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
-* [aws cdk lib repo readme file](https://github.com/aws/aws-cdk/blob/main/packages/aws-cdk-lib/pipelines/README.md)
+* <a href="https://github.com/aws-samples/aws-cdk-examples" target="_blank" rel="noopener noreferrer">aws cdk example repo</a>
+* <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html" target="_blank" rel="noopener noreferrer">aws cdk official user guide</a>
+* <a href="https://github.com/aws/aws-cdk/blob/main/packages/aws-cdk-lib/pipelines/README.md" target="_blank" rel="noopener noreferrer">aws cdk lib repo readme file</a>
