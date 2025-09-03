@@ -8,9 +8,9 @@ The goal of this cdk app is to manage cdk resources and deploy micro-services pr
 
 ### I have learned these resources before asking questions
 
-* <a href="https://github.com/aws-samples/aws-cdk-examples" target="_blank" rel="noopener noreferrer">aws cdk example repo</a>
-* <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html" target="_blank" rel="noopener noreferrer">aws cdk official user guide</a>
-* <a href="https://github.com/aws/aws-cdk/blob/main/packages/aws-cdk-lib/pipelines/README.md" target="_blank" rel="noopener noreferrer">aws cdk lib repo readme file</a>
+* <a href="https://github.com/aws-samples/aws-cdk-examples" target="_blank" >aws cdk example repo</a>
+* <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html" target="_blank" >aws cdk official user guide</a>
+* <a href="https://github.com/aws/aws-cdk/blob/main/packages/aws-cdk-lib/pipelines/README.md" target="_blank" >aws cdk lib repo readme file</a>
 
 
 ### Core files in my repo
@@ -32,5 +32,10 @@ lib/
 ### 1.how to sperate the pipelines
 
 
-as you can see, in my [pipeline-cdk](./lib/pipeline-cdk.ts), I have defined 
+as you can see, in my [pipeline-cdk](./lib/pipeline-cdk.ts), I have defined 2 repos, one `cdk repo for infrastructure`, and one repo for application code which is a `fullstack web app`. And this is a very bad approach, because this pipeline use cdk repo as input source, so only cdk repo code updates could trigger the pipeline. however, in the real-world project, cdk repo rarely change, and application code changed often, we usually replace old ecr image with new image and deploy fullstack web app on ecs.
+
+
+### 2.how to pass the run-time generated resource to other stacks
+
+suppose, we have already separate the pipelines.
 
